@@ -2,6 +2,9 @@
   "name": "web",
   "version": "1.0.0",
   "description": "first web",
+  "scripts": {
+    "start": "node index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
