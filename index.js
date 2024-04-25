@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 
 // 監聽指定的端口，啟動服務器
-const PORT = 3000;
+const PORT = 80;
 app.listen(PORT, () => {
   console.log(`服務器運行在端口 ${PORT}`);
 });
