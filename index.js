@@ -8,7 +8,9 @@ const app = express();
 app.get('/', (req, res) => {
   res.send('歡迎來到我的網站！');
 });
-
+app.get('/home', (req, res) => {
+  res.send('歡迎來到我的網站！');
+});
 
 // 監聽指定的端口，啟動服務器
 const PORT = 3000;
